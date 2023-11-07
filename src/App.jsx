@@ -53,7 +53,12 @@ function App() {
 
 	return (
 		<>
-			<ParentFunction onSubmit={receiveGeneralData} />
+			<ParentFunction
+				onSubmit={receiveGeneralData}
+				name={personInfo.userName}
+				email={personInfo.userEmail}
+				number={personInfo.userNumber}
+			/>
 			<EducationInfo onSubmit={receiveEducationData} />
 			<ExperienceInfo onSubmit={receiveExperienceData} />
 			<CV
