@@ -1,0 +1,25 @@
+### Components Structure
+## Inputs Section
+
+1- General Information
+- Name
+- Email
+- Phone Number
+
+2- Education
+- School Name
+- Title of Study
+- Date of Study
+
+3- Experience
+- Company Name
+- Position Name
+- Responsibilities
+- Date from till
+
+## Buttons
+1- Edit Button for every Component 
+- Edit button should toggle the input fields with the current information value
+
+2- Submit Button for every Component
+
